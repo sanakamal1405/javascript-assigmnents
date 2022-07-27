@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Question 4</title>
+        <script>
+            function print1()
+            {
+                var a=Number(document.getElementById("n1").value);
+                var b=Number(document.getElementById("n2").value);
+                var sum=a+b;
+                document.getElementById("s").value=sum;
+                
+            }
+        </script>
+    </head>
+    <body>
+        <input type="number" id="n1" name="Number 1"/>
+        <input type="number" id="n2" name="Number 2"/>
+        <button type="submit" onclick="print1()">Submit</button>
+        Sum is : <input id="s"/>
+
+    </body>
+</html>
